@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* CSS Reset */
+html, body, div, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Box Sizing */
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+body {
+    font-family: "Poppins", sans-serif;    
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#copyButton {
+    background-color: #2ecc71;
+    margin-left: 10px;
+}
+
+#copyButton:hover {
+    background-color: #27ae60;
+}
+
+#clearButton{
+  margin-left: 10px;
+  background: #961D12;
+}
+
+.Result-text li {
+    margin-top: 1rem;
+}
+
+.Result-text ol {
+    max-width: 700px;
+    background-color: #333;
+    color: #fff;
+    padding: 3rem;
+    border-radius: 4px;
+    margin-top: 20px;
+    
+}
+
+.Result-text h1,
+h1 {
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#result {
+    margin-bottom: 10px;
+}
+
+/* Radio button styles */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="radio"]:checked + label {
+    font-weight: bold;
+    color: #3498db;
+}
+
+/* Align radio buttons and labels */
+.gender-select {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.gender-select label {
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px; 
+}
+footer p{
+  font-size: 1.3rem;
+}
+footer p>a{
+  color: #2ecc71;
+}
