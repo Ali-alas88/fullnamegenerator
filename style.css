@@ -32,9 +32,6 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
-    
-
 }
 
 label {
@@ -75,9 +72,9 @@ button:hover {
     background-color: #27ae60;
 }
 
-#clearButton{
-  margin-left: 10px;
-  background: #961D12;
+#clearButton {
+    margin-left: 10px;
+    background: #961D12;
 }
 
 .Result-text li {
@@ -91,7 +88,6 @@ button:hover {
     padding: 3rem;
     border-radius: 4px;
     margin-top: 20px;
-    
 }
 
 .Result-text h1,
@@ -135,9 +131,41 @@ footer {
     background-color: #fff;
     padding: 10px; 
 }
-footer p{
-  font-size: 1.3rem;
+
+footer p {
+    font-size: 1.3rem;
 }
-footer p>a{
-  color: #2ecc71;
+
+footer p > a {
+    color: #2ecc71;
+}
+
+/* Media Queries for responsiveness */
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+
+    button {
+        padding: 0.8em; /* Adjusted padding */
+        font-size: 0.9rem; /* Adjusted font size */
+    }
+
+    #copyButton,
+    #clearButton {
+        margin-left: 0.5em; /* Adjusted margin */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    button {
+        padding: 0.7em; /* Adjusted padding */
+        font-size: 0.8rem; /* Adjusted font size */
+    }
+
+    #copyButton,
+    #clearButton {
+        margin-left: 0.2em; /* Adjusted margin */
+    }
 }
